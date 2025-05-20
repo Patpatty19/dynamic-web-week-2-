@@ -1,7 +1,13 @@
 {
-    "name": "test/dynamicweb",
-    "description": "test",
+    "name": "ciit/php-demo",
+    "autoload": {
+        "psr-4": {
+            "Ciit\\PhpDemo\\": "src/"
+        }
+    },
     "require": {
-        "cocur/slugify": "^4.6"
+        "cocur/slugify": "^4.6",
+        "ramsey/uuid": "^4.7",
+        "fakerphp/faker": "^1.24"
     }
 }
